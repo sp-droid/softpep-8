@@ -23,3 +23,12 @@ It is even stated in PEP-8 that actions against their guidelines that at the sam
 > "When applying the guideline would make the code less readable, even for someone who is used to reading code that follows this PEP."
 
 # Summary of changes to PEP-8
+- The entire guide is now a bit more straight to the point
+- Added examples to parts that did not have them
+### Code lay-out
+- Promoted tabs instead of discouraging them
+- Allowed argument "self" in first line allowed in hanging indentation
+- Not allowed multiple type-hinted arguments per line in hanging/vertical indentation
+- Allowed if one-liners
+- Not allowed if multilines without an extra level of indentation, to be consistent with functions
+- Encouraged multiline calls and definitions with an extra level of indentation, for the same reason
